@@ -5,6 +5,9 @@ package com.gssl.pojo;/*
  *
  */
 
+import com.google.api.services.bigquery.model.TableRow;
+import org.apache.http.annotation.Contract;
+
 import java.util.Date;
 
 public class InstrumentRating {
@@ -81,4 +84,5 @@ public class InstrumentRating {
     public void setRatingPurposeType(String ratingPurposeType) {
         RatingPurposeType = ratingPurposeType;
     }
+
 }
